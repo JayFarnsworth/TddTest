@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const queries = require('../warmup.js');
+const warmup = require('../warmup.js');
 
 describe('warmup', ()=>{
   describe('#doSomeMath', ()=>{
